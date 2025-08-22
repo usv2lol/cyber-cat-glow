@@ -18,12 +18,17 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Cyber variants
+        cyber: "bg-card-gradient border border-cyber-medium text-cyber-glow shadow-glow-soft hover:shadow-glow-medium hover:border-cyber-glow/70 active:animate-pop-in transition-all duration-300",
+        "cyber-primary": "bg-cyber-gradient border border-cyber-glow text-cyber-glow shadow-glow-medium hover:shadow-glow-intense hover:animate-glow-pulse active:animate-pop-in transition-all duration-300",
+        "cyber-fetch": "bg-card-gradient border border-cyber-glow text-cyber-glow shadow-glow-medium hover:shadow-glow-intense hover:border-cyber-glow hover:animate-glow-pulse active:animate-slide-down-out transition-all duration-300 font-bold"
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
+        cyber: "h-12 px-8 py-3 text-base rounded-lg",
       },
     },
     defaultVariants: {
